@@ -10,7 +10,7 @@
     <title>Cadastro de Clientes</title>
 </head>
 
-<body>
+<body style="background-color: #E5ECFB;">
     <form class="row g-3" form action="" method="POST">
  
     <div class="col-md-6">

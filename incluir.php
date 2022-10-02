@@ -15,7 +15,7 @@
         <img class="logop" src="img/IMG-20210211-WA0059.jpg" alt="">
     </picture>
 </header>
-<body>
+<body style="background-color: #E5ECFB;">
 <section id="box4">
 <div class="card" style="width: 18rem;">
     <div class="card-body">
