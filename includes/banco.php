@@ -1,13 +1,13 @@
 <?php
 
-    $banco = new mysqli('us-cdbr-east-06.cleardb.net', 'b2627606b321f6', 'e2327491', 'heroku_e4e630f8b7a2e2b');
+$db_name = "dallaqua";
+$db_host = "localhost";
+$db_user = "root";
+$db_password = "";
 
-    if ($banco->connect_errno) {
-        echo '<p>Erro! Fechando BD.</p>';
-        die();
-    }
+$banco = new PDO("mysql:dbname=".$db_name.";host=".$db_host, $db_user, $db_password);
 
-    $banco->query("SET NAMES 'utf8'");
-    $banco->query("SET character_set_connection=utf8");
-    $banco->query("SET character_set_client=utf8");
-    $banco->query("SET character_set_results=utf8");
+$banco->query("SET NAMES 'utf8'");
+$banco->query("SET character_set_connection=utf8");
+$banco->query("SET character_set_client=utf8");
+$banco->query("SET character_set_results=utf8");

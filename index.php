@@ -13,23 +13,17 @@
     </picture>
 </header>
 <body>
-
-    <?php
-        require_once "includes/banco.php";
-        require_once "includes/funcoes.php";
-    ?>
-
+<?php
+    require_once "includes/banco.php";
+    require_once "includes/funcoes.php";
+?>
 <section id="box1">
     <div id="selecao"><a href="index.php">Home</a></div>
-    <div id="selecao"><a href="clientes.php">Clientes</a></div>
-  
+    <div id="selecao"><a href="clientes.php">Clientes</a></div> 
 </section>
-
-
 <br><br>
 <section id="box2">
     <img class="logo" src="img/logo ambientes pensados.png" alt="logo Dallaqua Decor">
-    
 </section>
 </body>
 <footer>Desenvolvido por Diego©  
