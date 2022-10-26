@@ -1,9 +1,9 @@
 <?php
 
-$db_name = "dallaqua";
-$db_host = "localhost";
-$db_user = "root";
-$db_password = "";
+$db_name = "heroku_e4e630f8b7a2e2b";
+$db_host = "us-cdbr-east-06.cleardb.net";
+$db_user = "b2627606b321f6";
+$db_password = "e2327491";
 
 $banco = new PDO("mysql:dbname=".$db_name.";host=".$db_host, $db_user, $db_password);
 
