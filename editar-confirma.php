@@ -18,9 +18,9 @@
         header("Location: clientes.php");
         exit;
           
-    } else { 
-        header("Location: clientes.php");
-        exit;
+        } else { 
+            header("Location: clientes.php");
+            exit;
     }
 ?>
 
